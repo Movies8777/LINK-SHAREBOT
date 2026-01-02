@@ -7,7 +7,7 @@ from pyrogram.types import Message, User, ChatJoinRequest, InlineKeyboardMarkup,
 from pyrogram.errors import FloodWait, ChatAdminRequired, UserNotParticipant, UserAlreadyParticipant
 from helper_func import *
 
-AUTO_APPROVE_ENABLED = True
+AUTO_APPROVE_ENABLED = False
 
 @Client.on_chat_join_request((filters.group | filters.channel))
 async def auto_approve(client: Bot, message: ChatJoinRequest):
@@ -56,7 +56,7 @@ async def auto_approve(client: Bot, message: ChatJoinRequest):
         
         await client.send_photo(
             chat_id=user.id,
-            photo='https://ibb.co/DHqBS4V7',
+            photo='https://i.postimg.cc/mkwB9tVr/hmhg.jpg',
             caption=caption_approve_ka,
             reply_markup=markup
         )
