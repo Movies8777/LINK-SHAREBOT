@@ -6,8 +6,8 @@
     "links",
     "sharing"
   ],
-  "repository": "https://github.com/",
-  "logo": "https://ibb.co/mVkSySr7",
+  "repository": "https://github.com/Movies8777/LINK-SHAREBOT",
+  "logo": "https://postimg.cc/7CF5hP1P",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
